@@ -11,4 +11,4 @@ Os arquivos neste repositório não são para instalação, apenas para visualiz
 Para executar o aplicativo em um dispositivo móvel, copie o arquivo "restaurante.apk" para a pasta documentos do dispositivo.
 Vá até a configuração de aplicativos e habilite a opção que permite a instalação de um apk diretamente da pasta documentos.
 
-![Download APK](https://github.com/anaeltdgomes/Restaurante/blob/main/restaurante.apk)
+[Download APK](https://github.com/anaeltdgomes/Restaurante/blob/main/restaurante.apk)
