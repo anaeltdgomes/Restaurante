@@ -1,0 +1,175 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="65dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".Carnes">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp">
+
+    <TableRow>  <!-- Row 1 -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:id="@+id/img_bolinho_de_linguica_blumenau"
+            android:src="@drawable/bolinho_de_linguica_blumenau"
+            android:contentDescription="@string/blank" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:id="@+id/img_contra_file_parmegiana"
+            android:src="@drawable/contra_file_parmegiana"
+            android:contentDescription="@string/blank" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:contentDescription="@string/blank"
+            android:id="@+id/img_file_de_peixe_a_dore"
+            android:src="@drawable/file_de_peixe_a_dore"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_bolinho_de_linguica_blumenau"
+            android:text="@string/bolinho_de_linguica_blumenau" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_contra_file_parmegiana"
+            android:text="@string/contra_fil_parmegiana" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_file_de_peixe_a_dore"
+            android:text="@string/fil_de_peixe_dor" />
+    </TableRow>
+        <TableRow>  <!-- Row 2 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:id="@+id/img_file_de_peixe_empanado_frito"
+                android:src="@drawable/file_de_peixe_empanado_frito"
+                android:contentDescription="@string/blank" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:id="@+id/img_file_de_peixe_parmegiana"
+                android:src="@drawable/file_de_peixe_parmegiana"
+                android:contentDescription="@string/blank" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_frango_a_passarinho_da_rainha"
+                android:src="@drawable/frango_a_passarinho_da_rainha"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_file_de_peixe_empanado_frito"
+                android:text="@string/fil_de_peixe_empanado_frito" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_file_de_peixe_parmegiana"
+                android:text="@string/fil_de_peixe_parmegiana" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_frango_a_passarinho_da_rainha"
+                android:text="@string/frango_passarinho_da_rainha" />
+        </TableRow>
+        <TableRow>  <!-- Row 3 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:id="@+id/img_peixe_a_dore_com_molho_tartaro"
+                android:src="@drawable/peixe_a_dore_com_molho_tartaro"
+                android:contentDescription="@string/blank" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:id="@+id/img_peixe_empanado_com_molho_tartaro"
+                android:src="@drawable/peixe_empanado_com_molho_tartaro"
+                android:contentDescription="@string/blank" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_peixe_a_dore_com_molho_tartaro"
+                android:text="@string/peixe_dore_com_molho_t_rtaro" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_peixe_empanado_com_molho_tartaro"
+                android:text="@string/peixe_empanado_com_molho_t_rtaro" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+

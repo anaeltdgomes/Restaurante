@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Restaurante TI</string>
+    <string name="image">Image</string>
+    <string name="logo">Logo</string>
+    <string name="entrar">Entrar</string>
+    <string name="voltar">Voltar</string>
+    <string name="navigation_drawer_open">Aberto</string>
+    <string name="navigation_drawer_close">Fechado</string>
+    <string name="drawer_title">Restaurante</string>
+    <string name="drawer_header_description">Drawer Header</string>
+    <string name="csbtxt">CARNES - SALGADOS - BEBIDAS</string>
+    <string name="csb">Carnes - Salgados - Bebidas</string>
+    <string name="home">Home</string>
+    <string name="carnes">Carnes</string>
+    <string name="salgados">Salgados</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="reserva">Reserva</string>
+    <string name="contato">Contato</string>
+    <string name="pratos">Pratos</string>
+    <string name="blank">" "</string>
+    <string name="ok">OK</string>
+
+
+    <!-- Home -->
+
+    <string name="home_apresentacao1">Experimente nossos pratos, \npreparados por proficionais, \ncom qualidade e dedicação.</string>
+    <string name="home_apresentacao2">Confira nosso cardápio \nclicando no menu acima.</string>
+    <string name="telefone1">+(11) 1234-5678</string>
+    <string name="icone_telefone">Icone Telefone</string>
+    <string name="www_restauranteti_com">www.restauranteti.com</string>
+    <string name="triangulo_1">Triangulo 1</string>
+    <string name="onda_laranja">Onda Laranja</string>
+    <string name="restaurante_logo2">Restaurante Logo2</string>
+    <string name="delicioso">Delicioso</string>
+
+
+    <!-- Salgados -->
+    <string name="batata_frita">Batata frita</string>
+    <string name="cebola_frita_empanada">Cebola frita empanada</string>
+    <string name="combo_de_6_mini_esfihas">Combo de 6 mini esfihas</string>
+    <string name="combo_de_6_mini_kibes_fritos">Combo de 6 mini kibes fritos</string>
+    <string name="esfiha_aberta_de_carne">Esfiha aberta de carne</string>
+    <string name="esfiha_fechada_de_carne">Esfiha fechada de carne</string>
+    <string name="esfiha_fechada_recheada_de_batata">Esfiha fechada recheada de batata</string>
+    <string name="esfiha_folhada_de_queijo">Esfiha folhada de queijo</string>
+    <string name="kibe_frito_com_nozes">Kibe frito com nozes</string>
+    <string name="kibe_frito">Kibe frito</string>
+
+    <!-- Salgados Descrições -->
+
+
+
+    <!-- Bebidas -->
+    <string name="gua_mineral_com_g_s_crystal_1_5l">Água Mineral com Gás Crystal 1,5L</string>
+    <string name="gua_mineral_com_g_s_prata_510ml">Água Mineral com Gás Prata 510ml</string>
+    <string name="cerveja_brahma_duplo_malte_350ml_lata">Cerveja Brahma Duplo Malte 350ml Lata</string>
+    <string name="cerveja_chopp_brahma_350ml_lata">Cerveja Chopp Brahma 350ml Lata</string>
+    <string name="cerveja_corona_pilsen_330ml_long_neck">Cerveja Corona Pilsen 330ml Long Neck</string>
+    <string name="cerveja_extra_corona_350ml_lata">Cerveja Extra Corona 350ml Lata</string>
+    <string name="cerveja_heineken_350ml_lata">Cerveja Heineken 350ml Lata</string>
+    <string name="cerveja_heineken_puro_malte_330ml_long_neck">Cerveja Heineken Puro Malte 330ml Long Neck</string>
+    <string name="guaran_ant_rtica_350ml">Guaraná Antártica 350ml</string>
+    <string name="h2oh_lim_o_500ml">H2OH Limão 500ml</string>
+    <string name="refrigerante_pepsi_pet_200ml">Refrigerante Pepsi Pet 200ml</string>
+    <string name="refrigerante_sem_a_car_coca_cola_garrafa_200ml">Refrigerante sem Açúcar Coca-Cola Garrafa 200ml</string>
+
+    <!-- Bebidas Descrições -->
+
+
+    <!-- Carnes -->
+    <string name="peixe_empanado_com_molho_t_rtaro">Peixe empanado com molho tártaro</string>
+    <string name="peixe_dore_com_molho_t_rtaro">Peixe à dore com molho tártaro</string>
+    <string name="frango_passarinho_da_rainha">Frango á passarinho da rainha</string>
+    <string name="fil_de_peixe_parmegiana">Filé de peixe parmegiana</string>
+    <string name="fil_de_peixe_empanado_frito">Filé de peixe empanado frito</string>
+    <string name="fil_de_peixe_dor">Filé de peixe à dorê</string>
+    <string name="contra_fil_parmegiana">Contra filé parmegiana</string>
+    <string name="bolinho_de_linguica_blumenau">Bolinho de linguiça blumenau</string>
+
+    <!-- Carnes Descrições -->
+
+
+    <!-- Reservas -->
+
+    <string name="_4">4</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="numero_de_pessoas">Número de pessoas:</string>
+    <string name="telefone">Telefone</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="faca_sua_reserva">Faça sua Reserva</string>
+    <string name="enviar">Enviar</string>
+    <string name="data">Escolha a Data</string>
+    <string name="horarios">Horários:</string>
+
+    <string-array name="horarios">
+        <item>15h</item>
+        <item>16h</item>
+        <item>17h</item>
+        <item>18h</item>
+        <item>19h</item>
+        <item>20h</item>
+        <item>21h</item>
+        <item>22h</item>
+    </string-array>
+
+</resources>
+

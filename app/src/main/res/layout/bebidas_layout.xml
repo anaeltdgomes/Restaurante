@@ -1,0 +1,252 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="65dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".Bebidas">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp">
+
+    <TableRow>  <!-- Row 1 -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:contentDescription="@string/blank"
+            android:id="@+id/img_agua_1_5l"
+            android:src="@drawable/agua_mineral_com_gas_crystal_1_5l"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:contentDescription="@string/blank"
+            android:id="@+id/img_agua_500ml"
+            android:src="@drawable/agua_mineral_com_gas_crystal_510ml"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:contentDescription="@string/blank"
+            android:id="@+id/img_cerveja_brahma_lata"
+            android:src="@drawable/cerveja_brahma_duplo_malte_350ml_lata"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_agua_1_5l"
+            android:text="@string/gua_mineral_com_g_s_crystal_1_5l" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_agua_500ml"
+            android:text="@string/gua_mineral_com_g_s_prata_510ml" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/productMargin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_cerveja_brahma_lata"
+            android:text="@string/cerveja_brahma_duplo_malte_350ml_lata" />
+    </TableRow>
+        <TableRow>  <!-- Row 2 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_cerveja_chopp_lata"
+                android:src="@drawable/cerveja_chopp_brahma_350ml_lata"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_cerveja_corona_long_neck"
+                android:src="@drawable/cerveja_corona_pilsen_330ml_long_neck"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_cerveja_extra_corona"
+                android:src="@drawable/cerveja_extra_corona_350ml_lata"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_cerveja_chopp_lata"
+                android:text="@string/cerveja_chopp_brahma_350ml_lata" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_cerveja_corona_long_neck"
+                android:text="@string/cerveja_corona_pilsen_330ml_long_neck" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_cerveja_extra_corona"
+                android:text="@string/cerveja_extra_corona_350ml_lata" />
+        </TableRow>
+        <TableRow>  <!-- Row 3 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_cerveja_heineken_lata"
+                android:src="@drawable/cerveja_heineken_350ml_lata"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_cerveja_heineken_puro_malte"
+                android:src="@drawable/cerveja_heineken_puro_malte_330ml_long_neck"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_guarana_antartica"
+                android:src="@drawable/guarana_antartica_350ml"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_cerveja_heineken_lata"
+                android:text="@string/cerveja_heineken_350ml_lata" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_cerveja_heineken_puro_malte"
+                android:text="@string/cerveja_heineken_puro_malte_330ml_long_neck" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_guarana_antartica"
+                android:text="@string/guaran_ant_rtica_350ml" />
+        </TableRow>
+        <TableRow>  <!-- Row 4 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_h2oh_limao"
+                android:src="@drawable/h2oh_limao_500ml"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_refrigerante_pepsi_pet"
+                android:src="@drawable/refrigerante_pepsi_pet_200ml"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_refrigerante_sem_acucar_coca_cola"
+                android:src="@drawable/refrigerante_sem_acucar_coca_cola_garrafa_200ml"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_h2oh_limao"
+                android:text="@string/h2oh_lim_o_500ml" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_refrigerante_pepsi_pet"
+                android:text="@string/refrigerante_pepsi_pet_200ml" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_refrigerante_sem_acucar_coca_cola"
+                android:text="@string/refrigerante_sem_a_car_coca_cola_garrafa_200ml" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

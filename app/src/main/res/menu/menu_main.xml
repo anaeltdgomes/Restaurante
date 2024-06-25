@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_icon2"
+        android:title="@string/home" />
+
+    <item android:title="@string/pratos">
+        <menu
+            android:background="@drawable/menu_drawer">
+            <group>
+            <item
+                android:id="@+id/nav_carnes"
+                android:icon="@drawable/meat2"
+                android:title="@string/carnes" />
+            <item
+                android:id="@+id/nav_salgados"
+                android:icon="@drawable/salgados4"
+                android:title="@string/salgados" />
+            <item
+                android:id="@+id/nav_bebidas"
+                android:icon="@drawable/beer"
+                android:title="@string/bebidas" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/reserva"
+                    android:icon="@drawable/reserva"
+                    android:title="@string/reserva" />
+                <item
+                    android:id="@+id/nav_contato"
+                    android:icon="@drawable/contato1"
+                    android:title="@string/contato" />
+            </group>
+        </menu>
+    </item>
+</menu>

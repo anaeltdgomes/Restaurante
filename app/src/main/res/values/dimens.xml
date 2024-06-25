@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_icon_size">45dp</dimen>
+    <dimen name="imgRadious">20dp</dimen>
+    <dimen name="productMargin">2dp</dimen>
+    <dimen name="productPadding">3dp</dimen>
+</resources>

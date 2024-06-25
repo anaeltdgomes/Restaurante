@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="65dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".Salgados">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp">
+
+        <TableRow>  <!-- Row 1 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_batata_frita"
+                android:src="@drawable/batata_frita"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_cebola_frita_empanada"
+                android:src="@drawable/cebola_frita_empanada"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_combo_de_6_mini_esfihas_abertas"
+                android:src="@drawable/combo_de_6_mini_esfihas_abertas_de_carne_ou_de_queijo"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_batata_frita"
+                android:text="@string/batata_frita" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_cebola_frita_empanada"
+                android:text="@string/cebola_frita_empanada" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_combo_de_6_mini_esfihas_abertas"
+                android:text="@string/combo_de_6_mini_esfihas" />
+        </TableRow>
+        <TableRow>  <!-- Row 2 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_combo_de_6_mini_kibes"
+                android:src="@drawable/combo_de_6_mini_kibes_fritos"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_esfiha_aberta_de_carne"
+                android:src="@drawable/esfiha_aberta_de_carne"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_esfiha_fechada_de_carne"
+                android:src="@drawable/esfiha_fechada_de_carne"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_combo_de_6_mini_kibes"
+                android:text="@string/combo_de_6_mini_kibes_fritos" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_esfiha_aberta_de_carne"
+                android:text="@string/esfiha_aberta_de_carne" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_esfiha_fechada_de_carne"
+                android:text="@string/esfiha_fechada_de_carne" />
+        </TableRow>
+        <TableRow>  <!-- Row 3 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_esfiha_fechada_recheada_de_batata"
+                android:src="@drawable/esfiha_fechada_recheada_de_batata"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_esfiha_folhada_de_queijo"
+                android:src="@drawable/esfiha_folhada_de_queijo"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_kibe_frito_com_nozes"
+                android:src="@drawable/kibe_frito"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_esfiha_fechada_recheada_de_batata"
+                android:text="@string/esfiha_fechada_recheada_de_batata" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_esfiha_folhada_de_queijo"
+                android:text="@string/esfiha_folhada_de_queijo" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_kibe_frito_com_nozes"
+                android:text="@string/kibe_frito_com_nozes" />
+        </TableRow>
+        <TableRow>  <!-- Row 4 -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:contentDescription="@string/blank"
+                android:id="@+id/img_kibe_frito"
+                android:src="@drawable/kibe_frito"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/productMargin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/txt_kibe_frito"
+                android:text="@string/kibe_frito" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
