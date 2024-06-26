@@ -1,4 +1,4 @@
-# Android Aplication - Restaurante (versão 1.0)
+# Android Application - Restaurante (versão 1.0)
 
 Este projeto simula um aplicativo de restaurante contendo:
 
